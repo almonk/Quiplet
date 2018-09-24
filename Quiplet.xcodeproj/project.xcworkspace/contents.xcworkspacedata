@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:QuipUrlToApp.xcodeproj">
+      location = "self:/Users/amonk/Sites/QuipUrlToApp/Quiplet.xcodeproj">
    </FileRef>
 </Workspace>

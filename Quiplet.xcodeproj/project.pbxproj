@@ -13,6 +13,21 @@
 		9FA89A462158F63F00FB6336 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FA89A442158F63F00FB6336 /* Main.storyboard */; };
 		9FA89A522158F64000FB6336 /* QuipUrlToAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA89A512158F64000FB6336 /* QuipUrlToAppTests.swift */; };
 		9FA89A5D2158F64000FB6336 /* QuipUrlToAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA89A5C2158F64000FB6336 /* QuipUrlToAppUITests.swift */; };
+		9FA89A712158F66700FB6336 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FA89A702158F66700FB6336 /* Cocoa.framework */; };
+		9FA89A742158F66700FB6336 /* SafariExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA89A732158F66700FB6336 /* SafariExtensionHandler.swift */; };
+		9FA89A762158F66700FB6336 /* SafariExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA89A752158F66700FB6336 /* SafariExtensionViewController.swift */; };
+		9FA89A792158F66700FB6336 /* SafariExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FA89A772158F66700FB6336 /* SafariExtensionViewController.xib */; };
+		9FA89A7E2158F66700FB6336 /* ToolbarItemIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9FA89A7D2158F66700FB6336 /* ToolbarItemIcon.pdf */; };
+		9FA89A822158F66700FB6336 /* SafariExt.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 9FA89A6E2158F66700FB6336 /* SafariExt.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9FA89A882158FC3600FB6336 /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = 9FA89A872158FC3600FB6336 /* script.js */; };
+		9FA89A8C2158FEBC00FB6336 /* Quip.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9FA89A8B2158FEBC00FB6336 /* Quip.pdf */; };
+		9FA89A8E21591E1500FB6336 /* Quiplet.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9FA89A8D21591E1500FB6336 /* Quiplet.pdf */; };
+		9FA89A9521591E2A00FB6336 /* Toolbar@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FA89A8F21591E2900FB6336 /* Toolbar@3x.png */; };
+		9FA89A9621591E2A00FB6336 /* Toolbar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FA89A9021591E2900FB6336 /* Toolbar@2x.png */; };
+		9FA89A9721591E2A00FB6336 /* Checked@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FA89A9121591E2900FB6336 /* Checked@3x.png */; };
+		9FA89A9821591E2A00FB6336 /* Checked.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FA89A9221591E2900FB6336 /* Checked.png */; };
+		9FA89A9921591E2A00FB6336 /* Checked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FA89A9321591E2A00FB6336 /* Checked@2x.png */; };
+		9FA89A9A21591E2A00FB6336 /* Toolbar.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FA89A9421591E2A00FB6336 /* Toolbar.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,22 +45,60 @@
 			remoteGlobalIDString = 9FA89A3A2158F63D00FB6336;
 			remoteInfo = QuipUrlToApp;
 		};
+		9FA89A802158F66700FB6336 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9FA89A332158F63D00FB6336 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FA89A6D2158F66700FB6336;
+			remoteInfo = SafariExt;
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		9FA89A862158F66700FB6336 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				9FA89A822158F66700FB6336 /* SafariExt.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		9FA89A3B2158F63D00FB6336 /* QuipUrlToApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuipUrlToApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FA89A3B2158F63D00FB6336 /* Quiplet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quiplet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FA89A3E2158F63D00FB6336 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9FA89A402158F63D00FB6336 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9FA89A422158F63F00FB6336 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9FA89A452158F63F00FB6336 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9FA89A472158F63F00FB6336 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9FA89A482158F63F00FB6336 /* QuipUrlToApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = QuipUrlToApp.entitlements; sourceTree = "<group>"; };
-		9FA89A4D2158F64000FB6336 /* QuipUrlToAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuipUrlToAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FA89A4D2158F64000FB6336 /* QuipletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuipletTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FA89A512158F64000FB6336 /* QuipUrlToAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuipUrlToAppTests.swift; sourceTree = "<group>"; };
 		9FA89A532158F64000FB6336 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9FA89A582158F64000FB6336 /* QuipUrlToAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuipUrlToAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FA89A582158F64000FB6336 /* QuipletUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuipletUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FA89A5C2158F64000FB6336 /* QuipUrlToAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuipUrlToAppUITests.swift; sourceTree = "<group>"; };
 		9FA89A5E2158F64000FB6336 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FA89A6E2158F66700FB6336 /* SafariExt.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SafariExt.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FA89A702158F66700FB6336 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		9FA89A732158F66700FB6336 /* SafariExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionHandler.swift; sourceTree = "<group>"; };
+		9FA89A752158F66700FB6336 /* SafariExtensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionViewController.swift; sourceTree = "<group>"; };
+		9FA89A782158F66700FB6336 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SafariExtensionViewController.xib; sourceTree = "<group>"; };
+		9FA89A7A2158F66700FB6336 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FA89A7D2158F66700FB6336 /* ToolbarItemIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ToolbarItemIcon.pdf; sourceTree = "<group>"; };
+		9FA89A7F2158F66700FB6336 /* SafariExt.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SafariExt.entitlements; sourceTree = "<group>"; };
+		9FA89A872158FC3600FB6336 /* script.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
+		9FA89A8B2158FEBC00FB6336 /* Quip.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Quip.pdf; sourceTree = "<group>"; };
+		9FA89A8D21591E1500FB6336 /* Quiplet.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Quiplet.pdf; sourceTree = "<group>"; };
+		9FA89A8F21591E2900FB6336 /* Toolbar@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Toolbar@3x.png"; sourceTree = "<group>"; };
+		9FA89A9021591E2900FB6336 /* Toolbar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Toolbar@2x.png"; sourceTree = "<group>"; };
+		9FA89A9121591E2900FB6336 /* Checked@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Checked@3x.png"; sourceTree = "<group>"; };
+		9FA89A9221591E2900FB6336 /* Checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Checked.png; sourceTree = "<group>"; };
+		9FA89A9321591E2A00FB6336 /* Checked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Checked@2x.png"; sourceTree = "<group>"; };
+		9FA89A9421591E2A00FB6336 /* Toolbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Toolbar.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +123,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9FA89A6B2158F66700FB6336 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FA89A712158F66700FB6336 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -79,6 +140,8 @@
 				9FA89A3D2158F63D00FB6336 /* QuipUrlToApp */,
 				9FA89A502158F64000FB6336 /* QuipUrlToAppTests */,
 				9FA89A5B2158F64000FB6336 /* QuipUrlToAppUITests */,
+				9FA89A722158F66700FB6336 /* SafariExt */,
+				9FA89A6F2158F66700FB6336 /* Frameworks */,
 				9FA89A3C2158F63D00FB6336 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,9 +149,10 @@
 		9FA89A3C2158F63D00FB6336 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9FA89A3B2158F63D00FB6336 /* QuipUrlToApp.app */,
-				9FA89A4D2158F64000FB6336 /* QuipUrlToAppTests.xctest */,
-				9FA89A582158F64000FB6336 /* QuipUrlToAppUITests.xctest */,
+				9FA89A3B2158F63D00FB6336 /* Quiplet.app */,
+				9FA89A4D2158F64000FB6336 /* QuipletTests.xctest */,
+				9FA89A582158F64000FB6336 /* QuipletUITests.xctest */,
+				9FA89A6E2158F66700FB6336 /* SafariExt.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -124,29 +188,61 @@
 			path = QuipUrlToAppUITests;
 			sourceTree = "<group>";
 		};
+		9FA89A6F2158F66700FB6336 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9FA89A702158F66700FB6336 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9FA89A722158F66700FB6336 /* SafariExt */ = {
+			isa = PBXGroup;
+			children = (
+				9FA89A732158F66700FB6336 /* SafariExtensionHandler.swift */,
+				9FA89A752158F66700FB6336 /* SafariExtensionViewController.swift */,
+				9FA89A772158F66700FB6336 /* SafariExtensionViewController.xib */,
+				9FA89A8D21591E1500FB6336 /* Quiplet.pdf */,
+				9FA89A7A2158F66700FB6336 /* Info.plist */,
+				9FA89A8B2158FEBC00FB6336 /* Quip.pdf */,
+				9FA89A872158FC3600FB6336 /* script.js */,
+				9FA89A7D2158F66700FB6336 /* ToolbarItemIcon.pdf */,
+				9FA89A9221591E2900FB6336 /* Checked.png */,
+				9FA89A9321591E2A00FB6336 /* Checked@2x.png */,
+				9FA89A9121591E2900FB6336 /* Checked@3x.png */,
+				9FA89A9421591E2A00FB6336 /* Toolbar.png */,
+				9FA89A9021591E2900FB6336 /* Toolbar@2x.png */,
+				9FA89A8F21591E2900FB6336 /* Toolbar@3x.png */,
+				9FA89A7F2158F66700FB6336 /* SafariExt.entitlements */,
+			);
+			path = SafariExt;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9FA89A3A2158F63D00FB6336 /* QuipUrlToApp */ = {
+		9FA89A3A2158F63D00FB6336 /* Quiplet */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9FA89A612158F64000FB6336 /* Build configuration list for PBXNativeTarget "QuipUrlToApp" */;
+			buildConfigurationList = 9FA89A612158F64000FB6336 /* Build configuration list for PBXNativeTarget "Quiplet" */;
 			buildPhases = (
 				9FA89A372158F63D00FB6336 /* Sources */,
 				9FA89A382158F63D00FB6336 /* Frameworks */,
 				9FA89A392158F63D00FB6336 /* Resources */,
+				9FA89A862158F66700FB6336 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				9FA89A812158F66700FB6336 /* PBXTargetDependency */,
 			);
-			name = QuipUrlToApp;
+			name = Quiplet;
 			productName = QuipUrlToApp;
-			productReference = 9FA89A3B2158F63D00FB6336 /* QuipUrlToApp.app */;
+			productReference = 9FA89A3B2158F63D00FB6336 /* Quiplet.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9FA89A4C2158F64000FB6336 /* QuipUrlToAppTests */ = {
+		9FA89A4C2158F64000FB6336 /* QuipletTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9FA89A642158F64000FB6336 /* Build configuration list for PBXNativeTarget "QuipUrlToAppTests" */;
+			buildConfigurationList = 9FA89A642158F64000FB6336 /* Build configuration list for PBXNativeTarget "QuipletTests" */;
 			buildPhases = (
 				9FA89A492158F64000FB6336 /* Sources */,
 				9FA89A4A2158F64000FB6336 /* Frameworks */,
@@ -157,14 +253,14 @@
 			dependencies = (
 				9FA89A4F2158F64000FB6336 /* PBXTargetDependency */,
 			);
-			name = QuipUrlToAppTests;
+			name = QuipletTests;
 			productName = QuipUrlToAppTests;
-			productReference = 9FA89A4D2158F64000FB6336 /* QuipUrlToAppTests.xctest */;
+			productReference = 9FA89A4D2158F64000FB6336 /* QuipletTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		9FA89A572158F64000FB6336 /* QuipUrlToAppUITests */ = {
+		9FA89A572158F64000FB6336 /* QuipletUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9FA89A672158F64000FB6336 /* Build configuration list for PBXNativeTarget "QuipUrlToAppUITests" */;
+			buildConfigurationList = 9FA89A672158F64000FB6336 /* Build configuration list for PBXNativeTarget "QuipletUITests" */;
 			buildPhases = (
 				9FA89A542158F64000FB6336 /* Sources */,
 				9FA89A552158F64000FB6336 /* Frameworks */,
@@ -175,10 +271,27 @@
 			dependencies = (
 				9FA89A5A2158F64000FB6336 /* PBXTargetDependency */,
 			);
-			name = QuipUrlToAppUITests;
+			name = QuipletUITests;
 			productName = QuipUrlToAppUITests;
-			productReference = 9FA89A582158F64000FB6336 /* QuipUrlToAppUITests.xctest */;
+			productReference = 9FA89A582158F64000FB6336 /* QuipletUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		9FA89A6D2158F66700FB6336 /* SafariExt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FA89A832158F66700FB6336 /* Build configuration list for PBXNativeTarget "SafariExt" */;
+			buildPhases = (
+				9FA89A6A2158F66700FB6336 /* Sources */,
+				9FA89A6B2158F66700FB6336 /* Frameworks */,
+				9FA89A6C2158F66700FB6336 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SafariExt;
+			productName = SafariExt;
+			productReference = 9FA89A6E2158F66700FB6336 /* SafariExt.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -201,9 +314,12 @@
 						CreatedOnToolsVersion = 10.0;
 						TestTargetID = 9FA89A3A2158F63D00FB6336;
 					};
+					9FA89A6D2158F66700FB6336 = {
+						CreatedOnToolsVersion = 10.0;
+					};
 				};
 			};
-			buildConfigurationList = 9FA89A362158F63D00FB6336 /* Build configuration list for PBXProject "QuipUrlToApp" */;
+			buildConfigurationList = 9FA89A362158F63D00FB6336 /* Build configuration list for PBXProject "Quiplet" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -216,9 +332,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9FA89A3A2158F63D00FB6336 /* QuipUrlToApp */,
-				9FA89A4C2158F64000FB6336 /* QuipUrlToAppTests */,
-				9FA89A572158F64000FB6336 /* QuipUrlToAppUITests */,
+				9FA89A3A2158F63D00FB6336 /* Quiplet */,
+				9FA89A4C2158F64000FB6336 /* QuipletTests */,
+				9FA89A572158F64000FB6336 /* QuipletUITests */,
+				9FA89A6D2158F66700FB6336 /* SafariExt */,
 			);
 		};
 /* End PBXProject section */
@@ -244,6 +361,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FA89A6C2158F66700FB6336 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FA89A8E21591E1500FB6336 /* Quiplet.pdf in Resources */,
+				9FA89A7E2158F66700FB6336 /* ToolbarItemIcon.pdf in Resources */,
+				9FA89A9621591E2A00FB6336 /* Toolbar@2x.png in Resources */,
+				9FA89A9721591E2A00FB6336 /* Checked@3x.png in Resources */,
+				9FA89A8C2158FEBC00FB6336 /* Quip.pdf in Resources */,
+				9FA89A9521591E2A00FB6336 /* Toolbar@3x.png in Resources */,
+				9FA89A9921591E2A00FB6336 /* Checked@2x.png in Resources */,
+				9FA89A882158FC3600FB6336 /* script.js in Resources */,
+				9FA89A9A21591E2A00FB6336 /* Toolbar.png in Resources */,
+				9FA89A792158F66700FB6336 /* SafariExtensionViewController.xib in Resources */,
+				9FA89A9821591E2A00FB6336 /* Checked.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,18 +410,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9FA89A6A2158F66700FB6336 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FA89A762158F66700FB6336 /* SafariExtensionViewController.swift in Sources */,
+				9FA89A742158F66700FB6336 /* SafariExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		9FA89A4F2158F64000FB6336 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9FA89A3A2158F63D00FB6336 /* QuipUrlToApp */;
+			target = 9FA89A3A2158F63D00FB6336 /* Quiplet */;
 			targetProxy = 9FA89A4E2158F64000FB6336 /* PBXContainerItemProxy */;
 		};
 		9FA89A5A2158F64000FB6336 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9FA89A3A2158F63D00FB6336 /* QuipUrlToApp */;
+			target = 9FA89A3A2158F63D00FB6336 /* Quiplet */;
 			targetProxy = 9FA89A592158F64000FB6336 /* PBXContainerItemProxy */;
+		};
+		9FA89A812158F66700FB6336 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9FA89A6D2158F66700FB6336 /* SafariExt */;
+			targetProxy = 9FA89A802158F66700FB6336 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -297,6 +446,14 @@
 				9FA89A452158F63F00FB6336 /* Base */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9FA89A772158F66700FB6336 /* SafariExtensionViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FA89A782158F66700FB6336 /* Base */,
+			);
+			name = SafariExtensionViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -420,10 +577,13 @@
 		9FA89A622158F64000FB6336 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = QuipUrlToApp/QuipUrlToApp.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = KYSECZZ36U;
 				INFOPLIST_FILE = QuipUrlToApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -431,6 +591,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.alasdairmonk.QuipUrlToApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
@@ -438,10 +599,13 @@
 		9FA89A632158F64000FB6336 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = QuipUrlToApp/QuipUrlToApp.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = KYSECZZ36U;
 				INFOPLIST_FILE = QuipUrlToApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -449,6 +613,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.alasdairmonk.QuipUrlToApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
@@ -469,7 +634,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.alasdairmonk.QuipUrlToAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuipUrlToApp.app/Contents/MacOS/QuipUrlToApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quiplet.app/Contents/MacOS/Quiplet";
 			};
 			name = Debug;
 		};
@@ -489,7 +654,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.alasdairmonk.QuipUrlToAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuipUrlToApp.app/Contents/MacOS/QuipUrlToApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quiplet.app/Contents/MacOS/Quiplet";
 			};
 			name = Release;
 		};
@@ -531,10 +696,52 @@
 			};
 			name = Release;
 		};
+		9FA89A842158F66700FB6336 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = SafariExt/SafariExt.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KYSECZZ36U;
+				INFOPLIST_FILE = SafariExt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alasdairmonk.QuipUrlToApp.SafariExt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		9FA89A852158F66700FB6336 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = SafariExt/SafariExt.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KYSECZZ36U;
+				INFOPLIST_FILE = SafariExt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alasdairmonk.QuipUrlToApp.SafariExt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9FA89A362158F63D00FB6336 /* Build configuration list for PBXProject "QuipUrlToApp" */ = {
+		9FA89A362158F63D00FB6336 /* Build configuration list for PBXProject "Quiplet" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9FA89A5F2158F64000FB6336 /* Debug */,
@@ -543,7 +750,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9FA89A612158F64000FB6336 /* Build configuration list for PBXNativeTarget "QuipUrlToApp" */ = {
+		9FA89A612158F64000FB6336 /* Build configuration list for PBXNativeTarget "Quiplet" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9FA89A622158F64000FB6336 /* Debug */,
@@ -552,7 +759,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9FA89A642158F64000FB6336 /* Build configuration list for PBXNativeTarget "QuipUrlToAppTests" */ = {
+		9FA89A642158F64000FB6336 /* Build configuration list for PBXNativeTarget "QuipletTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9FA89A652158F64000FB6336 /* Debug */,
@@ -561,11 +768,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9FA89A672158F64000FB6336 /* Build configuration list for PBXNativeTarget "QuipUrlToAppUITests" */ = {
+		9FA89A672158F64000FB6336 /* Build configuration list for PBXNativeTarget "QuipletUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9FA89A682158F64000FB6336 /* Debug */,
 				9FA89A692158F64000FB6336 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FA89A832158F66700FB6336 /* Build configuration list for PBXNativeTarget "SafariExt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FA89A842158F66700FB6336 /* Debug */,
+				9FA89A852158F66700FB6336 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
